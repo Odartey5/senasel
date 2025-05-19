@@ -59,7 +59,7 @@ function Menu() {
       <Typography variant="h3" gutterBottom marginLeft={6}>
         Our Menu
       </Typography>
-      <Grid container spacing={6} style={{ display: "flex", justifyContent: "center" }}>  
+      <Grid container spacing={6} style={{ display: "flex", justifyContent: "center", flexDirection: "column", height: "100%" }}>  
         {menuItems.map((item, idx) => (
           <Grid item xs={12} sm={6} md={4} key={idx}>
             <Card justifyContent={"space-evenly"} className="menu-card">
@@ -69,7 +69,7 @@ function Menu() {
                 alt={item.name}
                 className="menu-image"
               />
-              <CardContent className="menu-card-content">
+              <CardContent className="menu-card-content" style={{ flexGrow: 1 }}>
                 <div className="menu-title-row">
                   <Typography variant="h6" component="div">
                     {item.name}
@@ -82,7 +82,7 @@ function Menu() {
                   </Typography>
                 </div>
               </CardContent>
-              <CardActions className="menu-card-actions">
+              <CardActions className="menu-card-actions" style={{ padding: 16, borderTop: `1px solid #ccc` }}>
                 <Button
                   variant="contained"
                   color="primary"
