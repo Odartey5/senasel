@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './component/Navbar';
-import Menu from './component/Menu';
+import Menu from './component/Menu/Menu';
 import Reservation from './component/Reservation';
 // import Contact from './pages/Contactus';
 
