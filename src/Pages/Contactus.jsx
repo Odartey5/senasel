@@ -1,4 +1,4 @@
-
+import './Contactus.css';
 
 export default function Contact() {
   return (
