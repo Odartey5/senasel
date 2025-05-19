@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './component/Navbar';
 import Menu from './component/Menu/Menu';
 import Reservation from './component/Reservation';
-// import Contact from './pages/Contactus';
+import Contact from './Pages/contactus';
 
 
 
@@ -16,7 +16,7 @@ const App = () => {
         <Route path="/" element={<h1>Welcome to Our Restaurant</h1>} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/reservation" element={<Reservation />} />
-        {/* <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
