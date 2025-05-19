@@ -1,7 +1,6 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #1da4b0;
     margin: 0;
     padding: 0;
   }
@@ -10,9 +9,11 @@ body {
     width: 100%;
     margin: 50px auto;
     background: white;
-    padding: 500px;
+    padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    position: relative;
+    left: 160%;
   }
   
   .contact-header {
