@@ -1,13 +1,5 @@
-/* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-
-  }
-  
-  .contact-container {
+/* reservation.css */
+.reservation-container {
     max-width: 500px;
     margin: 50px auto;
     background: white;
@@ -15,42 +7,43 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     position: relative;
-    left: 185%;
-    top: 10%; 
-  ;
+    top: 10px;
+    left: 150%;
   }
   
-  .contact-header {
+  h2 {
     text-align: center;
     color: #333;
   }
   
-  .contact-form {
+  form {
     display: flex;
     flex-direction: column;
   }
   
- .contact-label {
-    margin-bottom: 10px;
+  label {
     font-weight: bold;
+    margin-bottom: 8px;
   }
   
-  .contact-container
   input,
   textarea {
     width: 100%;
     padding: 8px;
-    margin-top: 5px;
+    margin-top: 4px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
   
-  .contact-container textarea {
-    resize: vertical;
-    height: 100px;
+  /* Hover effect for text inputs and textarea */
+  input:hover,
+  textarea:hover {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
   }
   
-  .contact-button {
+  button {
     background-color: #007bff;
     color: white;
     padding: 10px;
@@ -58,8 +51,9 @@ body {
     border-radius: 4px;
     cursor: pointer;
     margin-top: 15px;
+    transition: background-color 0.3s ease-in-out;
   }
   
-  .contact-button:hover {
+  button:hover {
     background-color: #0056b3;
   }
