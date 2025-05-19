@@ -6,7 +6,7 @@ body {
     padding: 0;
   }
   
-  div {
+  .contact-container {
     max-width: 500px;
     margin: 50px auto;
     background: white;
@@ -15,21 +15,22 @@ body {
     border-radius: 8px;
   }
   
-  h2 {
+  .contact-header {
     text-align: center;
     color: #333;
   }
   
-  form {
+  .contact-form {
     display: flex;
     flex-direction: column;
   }
   
-  label {
+ .contact-label {
     margin-bottom: 10px;
     font-weight: bold;
   }
   
+  .contact-container
   input,
   textarea {
     width: 100%;
@@ -39,12 +40,12 @@ body {
     border-radius: 4px;
   }
   
-  textarea {
+  .contact-container textarea {
     resize: vertical;
     height: 100px;
   }
   
-  button {
+  .contact-button {
     background-color: #007bff;
     color: white;
     padding: 10px;
@@ -54,6 +55,6 @@ body {
     margin-top: 15px;
   }
   
-  button:hover {
+  .contact-button:hover {
     background-color: #0056b3;
   }
