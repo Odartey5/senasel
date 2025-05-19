@@ -43,29 +43,29 @@ class Reservation extends Component {
   render() {
     return (
       <div className="reservation-container">
-        <h2>Reservation</h2>
-        <form>
-          <label>
+        <h2 class name="reservation-headerReservation"></h2>
+        <form className="reservation-form">
+          <label className="reservation-label">
             Name:
-            <input type="text" name="name" required />
+            <input type="text" name="name" required />                       
           </label>
           <br />
-          <label>
+          <label className="reservation-label">
             Date:
             <input type="date" name="date" required />
           </label>
           <br />
-          <label>
+          <label className="reservation-label">
             Time:
             <input type="time" name="time" required />
           </label>
           <br />
-          <label>
+          <label className="reservation-label">
             Number of Guests:
             <input type="number" name="guests" min="1" required />
           </label>
           <br />
-          <button type="submit">Reserve</button>
+          <button className="reservation-button"  type="submit">Reserve</button>
         </form>
       </div>
     );
