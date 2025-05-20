@@ -4,6 +4,7 @@ import Navbar from './component/Navbar';
 import Menu from './component/Menu/Menu';
 import Reservation from './component/Reservation';
 import Contact from './Pages/contactus';
+import Footer from './component/Footer';
 
 
 
@@ -17,7 +18,9 @@ const App = () => {
         <Route path="/menu" element={<Menu />} />
         <Route path="/reservation" element={<Reservation />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/footer" element={<Footer/>} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
