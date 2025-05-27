@@ -37,6 +37,34 @@ const foodItems = [
     price: 190,
     image: 'https://placehold.co/600x400/FCF8E3/8A6D3B?text=Combo', // Placeholder image
   },
+  {
+    id: 'kelewele',
+    name: 'Kelewele ',
+    description: 'Fried ripe plantain',
+    price: 80,
+    image: 'https://placehold.co/600x400/D4EDDA/3C763D?text=Kelewele', // Placeholder image
+  },
+  {
+    id: 'octopus',
+    name: 'Octopus Tentacles',
+    description: 'Provencal Sauce, Garlic Bread.',
+    price: 180,
+    image: 'https://placehold.co/600x400/F2DEDE/A94442?text=Octopus', // Placeholder image
+  },
+  {
+    id: 'prawns',
+    name: 'Prawns Tempura',
+    description: 'Sriracha Mayo Dip.',
+    price: 280,
+    image: 'https://placehold.co/600x400/D9EDF7/31708F?text=Prawns', // Placeholder image
+  },
+  {
+    id: 'bridgeview',
+    name: 'BridgeView Combo',
+    description: 'Burgers and Fries.', // Added a description for consistency
+    price: 190,
+    image: 'https://placehold.co/600x400/FCF8E3/8A6D3B?text=Combo', // Placeholder image
+  },
   // Add more items if needed to test grid responsiveness
 ];
 
