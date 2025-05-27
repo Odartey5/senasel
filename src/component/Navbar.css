@@ -1,6 +1,4 @@
 /* Navbar.css */
-
-
 .navbar {
   position: sticky;
   top: 0;
@@ -37,6 +35,7 @@
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.3s ease;
+
 }
 
 .nav-link:hover {
