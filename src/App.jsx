@@ -10,6 +10,7 @@ import Footer from './component/Footer';
 
 // Main App component
 const App = () => {
+
   return (
     <Router>
       <Navbar />
