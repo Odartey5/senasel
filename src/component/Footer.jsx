@@ -77,11 +77,11 @@ const Footer = () => {
             {/* Replace these with actual SVG icons or icon library components */}
             <a href="https://facebook.com/senaselfoods" target="_blank" rel="noopener noreferrer" aria-label="Visit us on Facebook">
               {/* <i className="fab fa-facebook-f"></i> example if using Font Awesome */}
-              <img src="/path/to/facebook-icon.svg" alt="Facebook" className="social-icon" />
+              <img src="/path/to/facebook.png" alt="Facebook" className="social-icon" />
             </a> 
             <a href="https://instagram.com/senaselfoods" target="_blank" rel="noopener noreferrer" aria-label="Visit us on Instagram">
               {/* <i className="fab fa-instagram"></i> */}
-              <img src="/path/to/instagram-icon.svg" alt="Instagram" className="social-icon" />
+              <img src="./path/to/" alt="Instagram" className="social-icon" />
             </a>
             {/* Add more social media links as needed */}
           </div>

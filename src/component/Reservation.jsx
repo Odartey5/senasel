@@ -37,13 +37,13 @@
 
 
 import React, { Component } from "react";
-import "./reservation.css";
+import "./Reservation.css";
 
 class Reservation extends Component {
   render() {
     return (
       <div className="reservation-container">
-        <h2 class name="reservation-headerReservation"></h2>
+        <h2 class name="reservation-headerReservation">Make a Reservation</h2>
         <form className="reservation-form">
           <label className="reservation-label">
             Name:
