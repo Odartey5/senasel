@@ -5,6 +5,7 @@ import Menu from './component/Menu/Menu';
 import Reservation from './component/Reservation';
 import Contact from './Pages/contactus';
 import Footer from './component/Footer';
+import Home from './Pages/HomePage/HomePage';
 
 
 
@@ -15,7 +16,7 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<h1>Welcome to Our Restaurant</h1>} />
+        <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/reservation" element={<Reservation />} />
         <Route path="/contact" element={<Contact />} />
