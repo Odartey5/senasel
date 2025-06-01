@@ -1,3 +1,22 @@
+
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-logo {
+  height: 40px; /* Adjust this value based on your needs */
+  width: auto;
+  object-fit: contain;
+}
+
+
 /* Navbar.css */
 .navbar {
   position: sticky;
@@ -5,9 +24,9 @@
   width: 100%;
   background-color: #a72e2e;
   color: rgb(169, 48, 48);
-  padding: 10px 20px;
+  padding: 15px 16px; /* Reduced padding */
   z-index: 1000;
-  box-shadow: 0 4px 6px #00000031;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Lighter shadow */
 }
 
 .navbar-container {
@@ -16,27 +35,28 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  height: 40px; /* Fixed height */
 }
 
 .navbar-logo {
-  font-size: 1.5rem;
+  font-size: 1.25rem; /* Slightly smaller font */
   font-weight: bold;
   color: #fff;
   text-decoration: none;
-
 }
 
 .navbar-links {
   display: flex;
-  gap: 20px;
+  gap: 16px; /* Reduced gap */
+  align-items: center; /* Center align items */
 }
 
 .nav-link {
   color: #fff;
   text-decoration: none;
-  font-size: 1rem;
-  transition: color 0.3s ease;
-
+  font-size: 0.9rem; /* Smaller font size */
+  transition: color 0.2s ease;
+  padding: 4px 8px; /* Add padding for better touch targets */
 }
 
 .nav-link:hover {
