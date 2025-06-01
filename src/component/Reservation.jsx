@@ -43,8 +43,8 @@ class Reservation extends Component {
   render() {
     return (
       <div className="reservation-container">
-        <h2 class name="reservation-headerReservation">Make a Reservation</h2>
         <form className="reservation-form">
+          <h2 class name="reservation-headerReservation">Make a Reservation</h2>
           <label className="reservation-label">
             Name:
             <input type="text" name="name" required />                       

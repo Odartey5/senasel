@@ -129,7 +129,7 @@ function App() {
 
 
   return (
-    <Box mt={10} mb={10} px={2}>
+    <Box mt={10} mb={10} px={2} textAlign={'center'}>
 
       <Typography
         variant="h3"
@@ -137,6 +137,12 @@ function App() {
         align="center"
         gutterBottom
         fontFamily={"'Comic', sans"}
+        color={'#333'}
+        backgroundColor={'#f5f5f5'}
+        padding={2}
+        borderRadius={2}
+        display={'inline-block'}
+        textTransform={'uppercase'}
       >
         Menu
       </Typography>
