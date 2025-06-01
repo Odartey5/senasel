@@ -1,7 +1,13 @@
-body{
+body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('../assets/restaurant-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  /* This makes the background static */
+    background-repeat: no-repeat;
 }
 
 .reservation-container {
@@ -10,7 +16,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #f7f7f7;
+    /* background: #f7f7f7; */
 }
 
 .reservation-form {
