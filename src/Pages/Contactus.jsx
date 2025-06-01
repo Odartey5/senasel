@@ -5,8 +5,8 @@ import './Contactus.css';
 export default function Contact() {
   return (
     <div className='contact-container'>
-      <h2 className='contact-header'>Contact Us</h2>
       <form className='contact-form'>
+        <h2 className='contact-header'>Contact Us</h2>
         <label className='contact-label'>
           Name:
           <input type="text" name="name" required />
