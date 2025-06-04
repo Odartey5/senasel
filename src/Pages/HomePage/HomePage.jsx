@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Typography, Button, Grid } from '@mui/material';
 import { Link } from 'react-router-dom';
 
-const Home = () => (
+const HomePage = () => (
   <Box minHeight="80vh" display="flex" alignItems="center" justifyContent="center">
     <Grid container spacing={6} alignItems="center" justifyContent="center">
       {/* Logo Column */}
@@ -36,4 +36,4 @@ const Home = () => (
   </Box>
 );
 
-export default Home;
+export default HomePage;
