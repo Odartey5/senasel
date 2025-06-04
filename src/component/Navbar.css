@@ -11,10 +11,10 @@
 }
 
 .nav-logo {
-  height: 40px; /* Adjust this value based on your needs */
+  height: 60px; /* Adjust this value based on your needs */
   width: auto;
   object-fit: contain;
-  border-radius: 50%;
+  border-radius: 45%;
 }
 
 
