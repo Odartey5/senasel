@@ -18,7 +18,7 @@ const HomePage = () => (
       {/* Content Column */}
       <Grid item xs={12} md={6} display="flex" flexDirection="column" alignItems="center">
         <Typography variant="h2" fontWeight="bold" gutterBottom>
-          Welcome to Senasel
+          Welcome to Senasel Foods
         </Typography>
         <Typography variant="h5" color="text.secondary" align="center" maxWidth={500} mb={3}>
           Visit our Menu, Enjoy delicious meals, make reservations, and contact us for more information.
