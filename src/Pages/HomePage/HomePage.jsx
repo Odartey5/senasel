@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Typography, Button, Grid } from '@mui/material';
 import { Link } from 'react-router-dom';
+import Logo from '../../images/senasel-logo1.jpg';
 
 const HomePage = () => (
   <Box minHeight="80vh" display="flex" alignItems="center" justifyContent="center">
@@ -9,7 +10,7 @@ const HomePage = () => (
       <Grid item xs={12} md={6} display="flex" justifyContent="center">
         <Box>
           <img
-            src="https://img.freepik.com/premium-vector/restaurant-food-logo-design_1016155-13405.jpg?semt=ais_hybrid&w=740"
+            src={Logo}
             alt="Senasel Logo"
             style={{ maxWidth: 250, width: '100%', height: 'auto', borderRadius: 16 }}
           />
@@ -19,11 +20,11 @@ const HomePage = () => (
       <Grid item xs={12} md={6} display="flex" flexDirection="column" alignItems="center">
         <Typography variant="h2" fontWeight="bold" gutterBottom color='#fff' >
           Welcome to Senasel Foods <br/>
-          <Typography sx={{ fontSize: '2.2rem', color: '#ccc' }} component="span">
+          <Typography sx={{ fontSize: '1.8rem', color: '#ccc', fontFamily: 'harrington' }} component="span">
             A taste of African cuisine
           </Typography>
         </Typography>
-        <Typography variant="h5" color="#cccccc" maxWidth={500} mb={3}>
+        <Typography variant="h6" color="#cccccc" maxWidth={500} mb={3} marginRight={30}>
           Visit our Menu, Enjoy delicious meals, make reservations, and contact us for more information. 
         </Typography>
         <Button
