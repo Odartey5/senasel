@@ -22,7 +22,6 @@
 .navbar {
   position: sticky;
   top: 0;
-  width: 100%;
   background-color: #a72e2e;
   color: rgb(169, 48, 48);
   padding: 15px 16px; /* Reduced padding */
