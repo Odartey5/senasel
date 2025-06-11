@@ -132,14 +132,14 @@ function App() {
     <Box mt={10} mb={10} px={2} textAlign={'center'}>
 
       <Typography
-        variant="h3"
+        variant="h4 "
         component="h1"
         align="center"
         gutterBottom
         fontFamily={"'Comic', sans"}
         color={'#333'}
         backgroundColor={'#f5f5f5'}
-        padding={2}
+        padding={1}
         borderRadius={2}
         display={'inline-block'}
         textTransform={'uppercase'}
@@ -161,11 +161,11 @@ function App() {
                 <Typography gutterBottom variant="h6" component="div">
                   {item.name}
                 </Typography>
-                <Typography variant="body2" color="text.secondary" minHeight='10'> {/* min-h to help align if descriptions are short */}
+                <Typography variant="body2" color="text.secondary" minHeight='10' textAlign= 'left'> {/* min-h to help align if descriptions are short */}
                   {item.description}
                 </Typography>
                 <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: 'auto' }}>
-                  <Typography variant="h6" color="text.primary" className="font-bold">
+                  <Typography variant="h6" color="text.primary">
                     GHC {item.price} 
                   </Typography>
                 </Box>
@@ -257,7 +257,7 @@ function App() {
                       >
                         <Add fontSize="small" />
                       </IconButton>
-                      <Typography ml={2}>{item.price * item.quantity} GHC</Typography>
+                      <Typography ml={2}>GHC {item.price * item.quantity} </Typography>
                        <IconButton
                           size="small"
                           color="error"
@@ -275,7 +275,7 @@ function App() {
               ))}
               <Box mt={2} display="flex" justifyContent="space-between" fontWeight="bold">
                 <Typography sx={{ fontWeight: 'bolder' }}>Total:</Typography>
-                <Typography>{totalPrice} GHC</Typography>
+                <Typography>GHC {totalPrice} </Typography>
               </Box>
             </Box>
           )}
