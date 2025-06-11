@@ -1,7 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import logo from '../assets/senasel-logo.jpg'; // Import the logo image
+import logo from '../assets/senasel-logo.jpg'; // Import the logo imag
+import { IconButton } from '@mui/material';
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+import Brightness7Icon from '@mui/icons-material/Brightness7';
+
+
+const ThemeToggle = ({ toggleTheme, isDarkMode }) => (
+  <IconButton onClick={toggleTheme} color="inherit">
+    {isDarkMode ? <Brightness7Icon /> : <Brightness4Icon />}
+  </IconButton>
+);
+
 
 const Navbar = () => {
   return (

@@ -14,7 +14,7 @@
   height: 60px; /* Adjust this value based on your needs */
   width: auto;
   object-fit: contain;
-  border-radius: 45%;
+  border-radius: 35%;
 }
 
 
@@ -40,7 +40,7 @@
 }
 
 .navbar-logo {
-  font-size: 1.25rem; /* Slightly smaller font */
+  font-size: 1.30rem; /* Slightly smaller font */
   font-weight: bold;
   color: #fff;
   text-decoration: none;
