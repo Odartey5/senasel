@@ -9,6 +9,7 @@ import Swal from 'sweetalert2';
 
 
 
+
 const foodItems = [
   {
     id: '1',
